@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        nav {
+            width: 100vw;
+            /* padding-right: 5rem;; */
+        }
+        #navlist{
+            padding: 15px;
+            width: 100vw;
+            list-style: none;
+            font-size: 2.3rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+        #logo1{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .navcont {
+            width: 100vw;
+            background-image: linear-gradient(134.6deg, rgba(201, 37, 107, 1) 15.4%, rgba(116, 16, 124, 1) 74.7%);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            
+        }
+        #navitems {
+            display: flex;
+            gap: 20px;
+        }
+        #navitems a{
+            text-decoration: none;
+            color: white;
+        }
+        #img2{
+            width: 250px;
+            height: 300px;
+            align-items: center;
+            margin: 10px;
+            
+        }
+        main{
+            height: 750px;
+            background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 246, 236, 1) 39.5%, rgba(100, 46, 122, 0.23) 100.2%);
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            background-image: linear-gradient(134.6deg, rgba(201, 37, 107, 1) 15.4%, rgba(116, 16, 124, 1) 74.7%);
+            width: 100%;
+            text-align: center;
+            height: 40px;
+        }
+        .footerbox p {
+            color: aliceblue;
+            font-size: 2rem;
+        }
+        main p{
+            font-size: 25px;
+            font-style: italic;
+            text-align: center;
+        }
+        main #p1{
+            font-weight: bolder;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navcont">
+        <ul id="navlist">
+            <li>
+                <img id="logo1" src="user.png" alt="">
+            </li>
+            
+            <li id="navitems" >
+                <a href="">Home</a>
+                <a href="">Contact Me</a>
+                <a href="">About Me</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <img src="Anshika.jpeg"  id="img2" alt="">
+        <p id="p1">Anshika Sharma (MCA First Year Student)</p>
+        <!-- <h3>About ME</h3> -->
+        <p >My name is Anshika Sharma. I am from Ghaziabad.<br>I am persuing MCA from ABES. <br>I want to become a software Engineer bacause I am very interested in technology and <br>That's why I am improving my coding and technical skills</p>
+    </main>
+    <footer>
+            <div class="footerbox">
+                <p>copyright &copy; Let's Eat pvt Ltd 2023 All Rights</p>
+            </div>
+    </footer>
+</body>
+</html>
